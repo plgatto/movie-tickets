@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>com.plgatto</groupId>
-	<artifactId>movie-ticket</artifactId>
+	<artifactId>movie-tickets</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
