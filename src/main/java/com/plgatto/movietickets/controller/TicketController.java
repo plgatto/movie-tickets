@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.plgatto.movietickets.dao.model.Ticket;
+import com.plgatto.movietickets.bo.TicketBO;
 import com.plgatto.movietickets.service.TicketService;
 
 @Controller
@@ -22,8 +22,8 @@ public class TicketController {
 	}
 	
 	@RequestMapping("/createTicket")
-	public String createTicket(Ticket ticket, ModelMap modelMap) {
-		ticketService.purchaseTicket(ticket);
+	public String createTicket(TicketBO ticketBO, ModelMap modelMap) {
+		ticketService.purchaseTicket(ticketBO);
 		modelMap.addAttribute("msg", "Ticket purchased successfully");
 		return CREATE_TICKET_VIEW;
 	}
