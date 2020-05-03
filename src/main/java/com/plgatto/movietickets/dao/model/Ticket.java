@@ -1,4 +1,4 @@
-package com.plgatto.movietickets.dao.models;
+package com.plgatto.movietickets.dao.model;
 
 public class Ticket {
 

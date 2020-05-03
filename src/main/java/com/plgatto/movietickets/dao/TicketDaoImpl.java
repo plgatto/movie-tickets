@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.plgatto.movietickets.dao.models.Ticket;
+import com.plgatto.movietickets.dao.model.Ticket;
 
 @Repository
 public class TicketDaoImpl implements TicketDao {
